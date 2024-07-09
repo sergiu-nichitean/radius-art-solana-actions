@@ -1,0 +1,26 @@
+{
+  "name": "blinks-api-nextjs",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hono/zod-openapi": "^0.14.7",
+    "@solana/actions": "^1.1.1",
+    "@solana/web3.js": "^1.94.0",
+    "axios": "^1.7.2",
+    "hono": "^4.4.12",
+    "next": "^13.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "18.0.10",
+    "typescript": "4.9.4"
+  }
+}
